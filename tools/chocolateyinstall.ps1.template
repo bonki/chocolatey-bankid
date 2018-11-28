@@ -1,0 +1,15 @@
+﻿$url = 'https://install.bankid.com/Repository/BankID_installation_%version%.exe'
+
+$packageArgs = @{
+  packageName    = $env:ChocolateyPackageName
+  fileType       = 'exe'
+  url            = $url
+  softwareName   = 'BankID Security Application'
+  checksum       = '%hash%'
+  checksumType   = 'sha256'
+  silentArgs     = '/S /v/qn'
+  validExitCodes = @(0)
+}
+
+Install-ChocolateyPackage @packageArgs
+

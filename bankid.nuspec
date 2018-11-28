@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bankid</id>
+    <version>7.6.1</version>
+    <packageSourceUrl>https://github.com/bonki/chocolatey-bankid</packageSourceUrl>
+    <owners>bonki</owners>
+    <title>BankID</title>
+    <authors>Finansiell ID-Teknik BID AB</authors>
+    <projectUrl>https://www.bankid.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bonki/chocolatey-bankid@v7.6.1/icon/bankid.svg</iconUrl>
+    <copyright>2018 Finansiell ID-Teknik BID AB</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<licenseUrl>https://www.bankid.com/licensavtal/bisp-10</licenseUrl>
+    <docsUrl>https://help.bankid.com/</docsUrl>
+    <tags>bankid identification</tags>
+    <summary>BankID is the leading electronic identification in Sweden</summary>
+    <description>BankID is a citizen identification solution that allows companies, banks and governments agencies to authenticate and conclude agreements with individuals over the Internet.</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
