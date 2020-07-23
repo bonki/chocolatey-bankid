@@ -5,11 +5,12 @@ $packageArgs = @{
   fileType       = 'exe'
   url            = $url
   softwareName   = 'BankID Security Application'
-  checksum       = '5634165f647abb2025d4f8c2d1c1e8ec4833356ecc2041fd8e6aab6f20043e9a'
+  checksum       = '5634165F647ABB2025D4F8C2D1C1E8EC4833356ECC2041FD8E6AAB6F20043E9A'
   checksumType   = 'sha256'
   silentArgs     = '/S /v/qn'
   validExitCodes = @(0)
 }
 
 Install-ChocolateyPackage @packageArgs
+
 
